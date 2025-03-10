@@ -12,7 +12,7 @@
 
 为了避免受到其他代码的干扰，索性新写了一个页面测试，也是在input上使用$.fn.placeholder并绑定“input”事件，问题并没有重现。
 
-回过头比较两个页面，发现第一个页面的input元素是通过[ZLTemplate](https://github.com/LangZhai/ZLTemplate)渲染出来的，而二个页面不是。
+回过头比较两个页面，发现第一个页面的input元素是通过[ZLTemplate](https://github.com/LangZhai-rebirth/ZLTemplate)渲染出来的，而二个页面不是。
 
 因此在第二个页面上也使用ZLTemplate渲染，但奇怪的是，问题依然没有重现。
 
